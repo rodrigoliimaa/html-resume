@@ -1,42 +1,45 @@
-# html-resume
-A single-page résumé template done purely with HTML and CSS, which can be rendered into PDF through web browsers' print-to-PDF functionality, making a nice, sleek, professsional and ready-to-print résumé. See my living example at: https://mnjul.net/cv/resume.pdf
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/devresume-free-bootstrap-4-resume-cv-template-for-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/04/Bootstrap-Resume-CV-Template-DevResume-Promo.jpg" alt="DevResume - Bootstrap 4 Resume/CV Template for Developers" /></a>
 
-As the résumé is purely typeset with HTML and CSS, it's highly customizable (e.g. if you want an "objective" section, just copy-paste a few HTML elements) and does not require proprietary software. All you need is a text editor and a web browser (see compatibility section below). Oh, maybe some intermediate CSS knowledge. And, since it's open source with Apache License, you're allowed (and encouraged!) to create your own fine-tuned template and share with others.
+## Theme Details & Demo
 
-Find the background story of this project at [my blog](https://blogs.purincess.tw/matrixblog/2016/04/typesetting-resume-with-html-and-css/).
+**Demo:** https://themes.3rdwavemedia.com/demo/devresume/
 
-# Compatibility and Known Issues/Limitations
-* I have only tested this project on latest release version of Firefox (56 as of writing) and Google Chrome (61) on macOS 10.13 (High Sierra).
-* It's my intention to support other browsers/platforms (like IE Edge on Windows?) as long as the browser sufficiently supports the required CSS features: ``calc()``, ``var()``, ``flexbox``, ...etc, and does not require (too many) dirty tricks. PRs or comments welcome!
-* **No hyperlinking functionality in rendered PDF** as browers's print-to-PDF process is merely "flattening to digital paper".
-* Other browser-specific hacks are as commented in the code.
+DevResume is a **free Bootstrap 4 resume/CV template** I made for software developers. Built on **Bootstrap 4 and SASS**, it's quick and easy to change the template styling. This template is designed to **help you **build your personal brand and attract better clients**!
 
-# Fonts, Icon Fonts, and Dependencies
-* [Open Sans](https://www.google.com/fonts/specimen/Open+Sans), [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) and [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro) are used at various weights, but are not included in this repository. Please follow the links to download the fonts onto your computer.
-* Icons from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) are used and are incorporated as a git submodule in this repository.
-* [Normalize.css](https://necolas.github.io/normalize.css/) is used and is incorporated as a git submodule in this repository.
+## Author & License
 
-# Paper Size/Orientation
-* Currently letter portrait only. PRs welcome for other paper sizes --- especially A4!
+This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
 
-# Actually Rendering the PDF
-* Again...I've only tried on the said version of Firefox & Chrome, on macOS.
-* Just open the HTML file with the browser. No need to serve the document from any kind of web server --- the ``file:///`` protocol should be good enough.
-* On Firefox:
-  * You probably need to remove any page margins in **about:config**.
-  * Uncheck **Ignore Scaling and Shrink To Fit Page Width**.
-  * Check **Print Background Colors**.
-  * Clear out the headers and footers.
-  * Save as PDF.
-* On Google Chrome:
-  * Set **Margin** to **None**.
-  * Print **Background Graphics**.
-  * Don't print headers and footers.
-  * Save as PDF.
+If you'd like to **use the template without the footer attribution**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/resume/devresume-free-bootstrap-4-resume-cv-template-for-developers/)
 
-# Footnotes and License
-* If you ever print out the rendered PDF, make sure texts are not clipped off, or items have not unexpectedly shrunk. Additionally, since the PDF has no margin outside the shaded sidebar, while most printers have no-print areas, the shaded sidebar probably won't fill up to the page's edge when printed.
-* This project is licensed under the Apache License.
-* PR, forks and other comments/suggestions are, as always, super welcome.
-* Feel free to remove the ``#disclaimer`` block which links back to this repository --- but huge thanks if you decide to keep it.
-* The layout/design was inspired by Paolo Zupin. Also, if anyone knows which link I should put under Mr. Zupin's name, please tell me!
+#### Follow Xiaoying
+
+[Twitter](https://twitter.com/3rdwave_themes)
+
+[Facebook](https://www.facebook.com/3rdwavethemes/)
+
+[Dribbble](https://dribbble.com/Xiaoying)
+
+[Medium](https://medium.com/@3rdwave_themes)
+
+[Linkedin](https://uk.linkedin.com/in/xiaoying)
+
+
+## Latest Version
+**v1.0** - 11 April 2019
+
+[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/resume/devresume-free-bootstrap-4-resume-cv-template-for-developers/?target=changelog)
+
+
+## Features
+
+-  Fully Responsive
+-  HTML5 + CSS3
+-  Built on Bootstrap 4
+-  **SCSS** source files included
+-  1000+ FontAwesome 5 icons
+-  Compatible with all modern browsers
+
+## Credits
+- [Bootstrap](http://getbootstrap.com/)
+- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
