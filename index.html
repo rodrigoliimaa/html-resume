@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>Rodrigo Lima - Software Engineer and MSc. Candidate </title>
+	<title>Rodrigo Lima - Software Engineer and PhD. Candidate </title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -37,7 +37,7 @@
 						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
 							<ul class="list-unstyled mb-0">
 								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="tel:#">+55 82 99996-3100</a></li>
-								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">rsl@ic.ufal.br</a></li>
+								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">rodrigosan.lima@gmail.com</a></li>
 								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="#">rodrigoliimaa.github.io</a></li>
 								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Maceió/AL/BR</li>
 							</ul>
@@ -50,7 +50,7 @@
 					<div class="media flex-column flex-md-row align-items-center">
 						<img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="assets/images/resume-profile.jpg" alt="image">
 						<div class="media-body text-left">
-							<p class="mb-0">Software Engineer Specialist with more than 8 years of experience. MSc. Candidate in Computer Science at Federal University of Alagoas (Maceió, AL - Brazil) advised by Prof. Phd. Baldoino Fonseca, Specialist Course (lato sensu) in Software Engineering at Centro Universitário CESMAC (Maceió, AL - Brazil) and BSc. in System Analyst at Centro Universitário CESMAC (Maceió, AL - Brazil).</p>
+							<p class="mb-0">Software Engineer Specialist with more than 8 years of experience. PhD. Candidate in Computer Science at Federal University of Pernambuco (Recife, PE - Brazil) advised by Prof. Phd. Baldoino Fonseca, Master Degree in Informatics Federal University of Alagoas, Specialist Course (lato sensu) in Software Engineering at Centro Universitário CESMAC (Maceió, AL - Brazil) and BSc. in System Analyst at Centro Universitário CESMAC (Maceió, AL - Brazil).</p>
 						</div><!--//media-body-->
 					</div>
 				</div><!--//resume-intro-->
@@ -60,6 +60,20 @@
 						<div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
 							<section class="work-section py-3">
 								<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Engineer</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Quimbik Inc. | 2019 - Present</div>
+									</div>
+									<div class="item-content">
+										<p>Development and maintenance of Systems using Java and JavaScript (ReactJS)</p>
+										<ul class="resume-list">
+											<li>Java</li>
+											<li>JavaScript</li>
+											<li>Test Driven Development</li>
+										</ul>
+									</div>
+								</div><!--//item-->
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Chief Technology Office</h4>
@@ -123,12 +137,12 @@
 								<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Are We Being Fooled by Machine Learning when Detecting Code Smells?</h4>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Understanding and Classifying Code Harmfulness</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Research Paper / Open Source</div>
 										
 									</div>
 									<div class="item-content">
-										<p>Code  smells  indicate  poor  implementation  choices that  may  degrade  the  software  quality.  Hence,  studies  argue that  code  smells  need  to  be  carefully  detected  to  avoid  software degradation.  In  this  context,  machine  learning  techniques  havebeen used to detect code smells. However, these techniques do not consider  that  the  identification  of  smells  into  code  just  suggest that it may lead to software degradation; this does not mean that the code is harmful to the software. By harmful code, we mean acode that already had bugs in the past and contains smells, i. e., it is still bug-proneness. This paper presents a study to investigate the  presence  of  harmful  code  and  how  effective  are  machine learning  techniques  to  detect  it.  We  performed  our  study  with 28  smell  types,  eight  open-source  projects,  and  7144  bugs.  Theresults  indicate  that  machine  learning  techniques  detect  a  high number of smells. But, only a reduced number of these smells are harmful. Moreover, those techniques present high effectiveness to recognize  harmful  code.  Therefore,  developers  should  focus  on detecting  harmful  code  instead  of  smells.</p>
+										<p>Code smells typically indicate poor implementation choices that may degrade software quality. Hence, they need to be carefully detected to avoid such degradation. In this context, some studies try to understand the impact of code smells on the software quality, while others propose rules or machine learning-based techniques to detect code smells. However, none of those studies/techniques focus on analyzing code snippets that are really harmful to software quality. This paper presents a study to understand and classify code harmfulness. We analyze harmfulness in terms of CLEAN, SMELLY, BUGGY, and HARMFUL code. By harmful code, we mean code that has already harmed software quality and is still prone to harm. We perform our study with 22 smell types, 803 versions of 12 open-source projects, 40,340 bugs and 132,219 code smells. The results show that even though we have a high number of code smells, only 0.07% of those smells are harmful. The Abstract Function Call from Constructor is the smell type more related to harmful code. To cross-validate our results, we also perform a survey with 77 developers. Most of them (90.4%) consider code smells harmful to the software, and 84.6% of those developers believe that code smells detection tools are important. But those developers are not concerned about selecting tools that are able to detect harmful code. We also evaluate machine learning techniques to classify code harmfulness: they reach the effectiveness of at least 97% to classify harmful code. While the Random Forest is effective in classifying both smelly and harmful code, the Gaussian Naïve Bayes is the less effective technique. Our results also suggest that both software and developers’ metrics are important to classify harmful code.</p>
 									</div>
 								</div><!--//item-->
 								<div class="item">
@@ -163,7 +177,7 @@
 										<li class="mb-2">JavaScript / React / Vue</li>
 										<li class="mb-2">Python / Ruby / Java / Swift<li>
 										<li class="mb-2">PostgreSQL / MySQL / Oracle / MongoDB</li>
-										<li class="mb-2">Object-oriented design</li>
+										<li class="mb-2">Object-oriented design / Test Driven Development</li>
 										<li class="mb-2">Docker</li>
 										<li class="mb-2">Machine Learning</li>
 									</ul>
